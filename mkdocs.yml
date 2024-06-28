@@ -1,0 +1,19 @@
+site_name: surveyPrev
+theme:
+  name: material
+  features: 
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+
+nav:
+  - Home: index.md
+  - About: method_direct.md
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
