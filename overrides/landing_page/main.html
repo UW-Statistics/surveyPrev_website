@@ -1,0 +1,14 @@
+<!-- Elements added to "main.html" will be displayed on all pages -->
+
+{% extends "base.html" %}
+
+{% block styles %}
+{{ super() }}
+<!-- <link rel="stylesheet" href="{{ 'assets/stylesheets/home.min.css' | url }}"> -->
+<!-- <link rel="stylesheet" href="{{'assets/stylesheets/custom.cc92020d.min.css' | url }}"> -->
+{% endblock %}
+
+{% block extrahead %}
+    <!-- main.html | Added "navigation.instant" support -->
+    <link rel="canonical" href=".">
+{% endblock %}

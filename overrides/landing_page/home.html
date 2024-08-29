@@ -1,0 +1,348 @@
+<!-- Elements added to "home.html" will only be displayed on the home page -->
+
+{% extends "main.html" %}
+
+{% block styles %}
+{{ super() }}
+<!-- <link rel="stylesheet" href="{{ 'assets/stylesheets/home.min.css' | url }}"> -->
+<!-- <link rel="stylesheet" href="{{ 'assets/stylesheets/home.ac698b0a.min.css' | url }}"> -->
+<link rel="stylesheet" href="{{ 'assets/stylesheets/home.min.css' | url }}">
+
+<style>
+  .md-main {
+    flex-grow: 0
+  }
+
+  .md-main__inner {
+    display: flex;
+    height: 100%;
+  }
+
+  .tx-container-first {
+    padding-top: .0rem;
+    /* background: linear-gradient(to bottom, var(--md-primary-fg-color), hsla(0deg, 47%, 55%, 1) 99%, #fff 99%) */
+    /* background: linear-gradient(to bottom, var(--md-primary-fg-color), hsla(0deg, 47%, 55%, 1) 100%) */
+    background: linear-gradient(to bottom, var(--md-primary-fg-color), rgb(153, 213, 104) 100%)
+  }
+
+  .tx-container-second {
+    padding-top: .0rem;
+    /* background: linear-gradient(to bottom, hsla(0deg, 47%, 55%, 1), var(--md-primary-fg-color) 100%) */
+    background: linear-gradient(to bottom, rgb(153, 213, 104), var(--md-primary-fg-color) 100%)
+  }
+
+
+  .first-gradiant-body {
+    background: hsla(316, 100%, 63%, 1);
+    background: linear-gradient(0deg, hsla(316, 100%, 63%, 1) 0%, hsla(2, 62%, 69%, 1) 33%, hsla(68, 77%, 47%, 1) 87%);
+  }
+
+  .second-gradiant-body {
+    background: hsla(316, 100%, 63%, 1);
+    background: linear-gradient(180deg, hsla(316, 100%, 63%, 1) 0%, hsla(2, 62%, 69%, 1) 33%, hsla(68, 77%, 47%, 1) 87%);
+  }
+
+
+  .tx-hero {
+    margin: 32px 2.8rem;
+    color: var(--md-primary-bg-color);
+    justify-content: center;
+  }
+
+  .tx-hero h1 {
+    margin-bottom: 1rem;
+    color: currentColor;
+    font-weight: 700
+  }
+
+  .tx-hero__content {
+    padding-bottom: 1rem;
+    margin: 0 auto;
+  }
+
+  .tx-hero__image {
+    width: 17rem;
+    height: 17rem;
+    order: 1;
+    padding-right: 2.5rem;
+  }
+
+  .tx-hero .md-button {
+    margin-top: .5rem;
+    margin-right: .5rem;
+    color: var(--md-primary-bg-color)
+  }
+
+  .tx-hero .md-button--primary {
+    background-color: var(--md-primary-bg-color);
+    color: hsla(280deg, 37%, 48%, 1);
+    border-color: var(--md-primary-bg-color)
+  }
+
+  .tx-hero .md-button:focus,
+  .tx-hero .md-button:hover {
+    background-color: var(--md-accent-fg-color);
+    color: var(--md-default-bg-color);
+    border-color: var(--md-accent-fg-color)
+  }
+
+  .feature-item h2 svg {
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+    transform: translateY(10%);
+  }
+
+  .top-hr {
+    margin-top: 42px;
+  }
+
+  .feature-item {
+    border-radius: 20px;
+    margin-top: .5rem;
+    margin-right: .5rem;
+    background-color: var(--md-primary-bg-color);
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    box-sizing: border-box;
+    padding: 0 15px;
+    word-break: break-word
+  }
+
+  .feature-item h2 {
+    color: #333;
+    font-weight: 300;
+    font-size: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: inherit;
+  }
+
+  .feature-item p {
+    font-size: 16px;
+    line-height: 1.8em;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: #111;
+    margin: 0 0 10px;
+    display: block;
+  }
+
+  @media screen and (max-width:30em) {
+    .tx-hero h1 {
+      font-size: 1.4rem
+    }
+  }
+
+  @media screen and (min-width:60em) {
+    .md-sidebar--secondary {
+      display: none
+    }
+
+    .tx-hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .tx-hero__content {
+      max-width: 22rem;
+      margin-top: 3.5rem;
+      margin-bottom: 3.5rem;
+      margin-left: 1.0rem;
+      margin-right: 4.0rem;
+      align-items: center;
+    }
+  }
+
+  @media screen and (min-width:76.25em) {
+    .md-sidebar--primary {
+      display: none
+    }
+
+    .top-hr {
+      width: 100%;
+      display: flex;
+      max-width: 61rem;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 0 .2rem;
+    }
+
+    .bottom-hr {
+      margin-top: 10px;
+      width: 100%;
+      display: flex;
+      max-width: 61rem;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 0 .2rem;
+    }
+
+    .feature-item {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .feature-item:hover {
+      background-color: #526cfe47;
+      border-radius: 3px;
+    }
+  }
+
+  .hr {
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .text-center {
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+    font-weight: 300;
+    padding-bottom: 10px;
+  }
+
+  .logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: 0 auto;
+  }
+
+  .logos img {
+    flex: 1 1 auto;
+    padding: 25px;
+    max-height: 130px;
+    vertical-align: middle;
+  }
+
+  .hr-logos {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+  .md-footer-meta__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1.0rem;
+  }
+
+  .md-footer-social {
+    padding-top: 20px;
+  }
+</style>
+
+{% endblock %}
+
+{% block tabs %}
+{{ super() }}
+
+<!-- <section class="tx-container">
+  <div class="md-grid md-typeset">
+    <iframe src="RW_map.html" style="border: none; width: 100%; height: 600px;"></iframe>
+  </div>
+</section> -->
+
+<section class="tx-container-first" style="margin: 0; padding: 0">
+  <!-- <div class="md-grid md-typeset" style="padding-bottom: 20px"> -->
+  <!-- <iframe src="RW_map.html" style="border: none; width: 100%; height: 600px"></iframe> -->
+  <!-- <img src="RW_map2.png"  style="width: 100%; height: auto;z-index: -10;"> -->
+  <div style="position: relative; width: 100%; height: auto;">
+    <img src="RW_map2.png" alt="Trusted in the industry" style="width: 100%; height: auto; position: absolute; top: 0; left: 0; clip-path: polygon(0% 0%, 65% 0%, 35% 100%, 0% 100%); opacity: 0.4;">
+    <img src="RW_map2.png" alt="Trusted in the industry" style="width: 100%; height: auto; position: absolute; top: 0; left: 0; clip-path: polygon(65% 0%, 100% 0%, 100% 100%, 35% 100%);">
+  </div>
+    <img src="RW_map2.png"  style="position: relative;width: 100%; height: auto;z-index: -10;">
+
+  <!-- <img src="RW_map.png" 
+      style="width: 120%; height: auto; clip-path: polygon(40% 50%, 70% 100%, 100% 100%, 100% 0%, 70% 0%, 40% 50%);"> -->
+  <div class="mdx-hero__inner" style=" padding: 20px">
+    <div class="mdx-hero__teaser md-typeset">
+      <!-- <h1 style="color: #ae5642;">Small Area Estimation that simply works</h1>   -->
+      <h1 style="color: #3c15e8;font-size: 2.5em; ">Small Area Estimation that simply works</h1>
+      <p style="color: #3c15e8;font-size: 1.5em;">Powered by SurveyPrev and the R Shiny App.</p>
+      <a href="getting-started/" class="md-button">Get started</a>
+      <a href="#everything-you-would-expect" class="md-button md-button--secondary">Learn more</a>
+    </div>
+  </div>
+  <!-- </div> -->
+</section>
+
+<section class="tx-container-second" data-md-color-scheme="slate" data-md-color-primary="indigo">
+  <div class="md-content md-grid" data-md-component="content">
+    <div class="md-content__inner">
+      <header class="md-typeset">
+        <h1 id="everything-you-would-expect">
+          Everything you would expect
+          <a href="#everything-you-would-expect" class="headerlink" title="Permanent link">
+
+          </a>
+        </h1>
+      </header>
+      <div class="mdx-expect">
+        <ul class="mdx-expect__list">
+          <li class="mdx-expect__item md-typeset">
+            <div class="mdx-expect__description">
+              <h2>Statistical Rigor</h2>
+              <p>
+                Our R package and Shiny app leverage advanced statistical methods for subnational estimates of key
+                demographic and health indicators from DHS and MICS data. Your analyses are built on our peer-reviewed
+                publications.
+              </p>
+            </div>
+          </li>
+          <li class="mdx-expect__item md-typeset">
+            <div class="mdx-expect__description">
+              <h2>Accessible Hands-On Analysis</h2>
+              <p>
+                The Shiny app transforms complex statistical analysis into an accessible, user-friendly experience.
+                No prior programming or deep statistical knowledge needed. Detailed documentations, step-by-step
+                tutorials and an intuitive
+                interface guide users through the entire analytical process.
+
+              </p>
+            </div>
+          </li>
+          <li class="mdx-expect__item md-typeset">
+            <div class="mdx-expect__description">
+              <h2>Creative Data Visualization</h2>
+              <p>
+                Our R package and Shiny app offer powerful visualization tools that turn data into actionable insights.
+                Explore and interpret spatial distributions through interactive maps and charts, enabling clear
+                inferences for public health decisions.
+              </p>
+            </div>
+          </li>
+          <li class="mdx-expect__item md-typeset">
+            <div class="mdx-expect__description">
+              <h2>Collaborative and Evolving Ecosystem</h2>
+              <p>
+                Our software is part of a dynamic ecosystem, offering educational sessions, collaborations with country
+                offices, and continuous updates. We evolve the app based on user feedback, empowering research,
+                informing policy, and driving impactful public health outcomes.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}{% endblock %}
