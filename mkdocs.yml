@@ -16,7 +16,9 @@ theme:
     - navigation.indexes          # Implied section 'index.md' files
     - navigation.tabs             # Static upper section tabs (exist)
     #- navigation.tabs.sticky      # Static upper section tabs (stay)
-    - navigation.sections
+    - navigation.tracking
+    - navigation.expand
+    # - navigation.sections
     - navigation.top
     - navigation.footer           # Add 'previous' and 'next' buttons in the footer
     - navigation.instant          # Keep navigation from reloading
@@ -25,16 +27,15 @@ theme:
     - search.share                # Search Query can be copied to Clipboard
     - search.suggest              # Display likeliest completion for the last queried word
 
-
-
 nav:
   - Home: index.md
   - Getting started:
     - About the project: overview/project_overview.md
   - Method: 
-    - Method overview: method/approach_overview.md
-    - Direct estimates: method/method_direct.md
-    - Our Innovations:
+    - Overview: method/approach_overview.md
+    - Method details:
+      - Direct estimates: method/method_direct.md
+    - Our innovations:
       - Publications: method/publications.md
       - Software development: method/software_development.md
 
