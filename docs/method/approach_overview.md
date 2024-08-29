@@ -1,0 +1,11 @@
+## Small Area Estimation (SAE)
+
+Small area estimation (SAE) describes the endeavor of producing estimates of quantities of interest, in our case prevalences, for a set of areas, with the possibility of sparse response data in at least some areas. The `surveyPrev` package and accompanying shinyapp is designed to produce small area prevalence estimates using household survey data. The household data are collected with a complex design (stratified, cluster sampling) and this must be recognized in the modeling. To this end, methods from survey sampling and SAE are used for modeling.
+
+Once small area estimates are produced, they may be mapped to see a visual picture of the pattern of prevalence over the study region. With a set of estimates, along with their uncertainty, one can gain valuable insight into which areas are struggling with particular indicators, which may be a motivation for introducing interventions.
+
+In the following, Admin-0 refers to the national level, Admin-1 to one level beneath that, and Admin-2 to one beneath that, with each set of areas being nested in the level above. As an example, Nigeria has 774 local government areas (Admin-2 areas) which are nested within 36 states (Admin-1 areas). In general, the numbers of Admin-1 and Admin-2 areas shows large variation across countries.
+
+In the context of household surveys, the usual sampling is stratified two-stage cluster sampling. We note that surveys in some countries deviate from the following description, but most Demographic Health Surveys (DHS) and Multiple Indicator Cluster Surveys (MICS) surveys follow this design. The strata are based on a cross-classification of urban/rural with Admin-1 areas. In the first stage, clusters are samples within strata, using probability proportional to size (PPS), with the sizes being the numbers of households. At the second stage, a fixed number of households (for example, 25) is probabilistically sampled from those available. The surveys often take sufficient clusters for reasonably accurate inference for key indicators at the Admin-1 level.
+
+Three distinct approaches are provided in the package and shinyapp, in line with a standard SAE categorization (Rao and Molina, 2015)[@rao:molina:15].

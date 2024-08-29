@@ -285,12 +285,12 @@
 /* customized */
 .mdx-expect__description h2 {
     font-size: 2em; /* Adjusts the size of h1 elements */
-    font-weight: 750;
+    font-weight: 650;
 }
 
 .mdx-expect__description p {
     font-size: 1.2em; /* Adjusts the size of paragraph elements */
-    font-weight: 650;
+    font-weight: 500;
 }
 
 .mdx-expect__description>:last-child {

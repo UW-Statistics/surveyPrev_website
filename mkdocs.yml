@@ -1,27 +1,22 @@
 ## Project information
 site_name: surveyPrev
-site_description: surveyPrev and the R Shiny App
+site_description: Powered by SurveyPrev and the R Shiny App
 
 ## Repository
 repo_name: surveyPrev_website
 repo_url: https://github.com/wu-thomas/surveyPrev_website
 edit_uri: ''  #disables edit button
 
-# Custom Homepage Elements
-home_cover_image: RW_map.png # This path starts at your root mkdocs directory.
-home_tagline: Shadow Wizards Only
-home_description: This site is an example showcase for my "mkdocs-coverpage" repository.
-
-# Gradient Color
-home_gradient_hsla: hsla(0deg,47%,55%,1) # Default Green: hsla(160deg,47%,55%,1)
-
 theme:
   name: material
   custom_dir: overrides\landing_page
+  icon: # https://www.materialpalette.com/icons
+    logo: material/map
   features:
     - navigation.indexes          # Implied section 'index.md' files
     - navigation.tabs             # Static upper section tabs (exist)
     #- navigation.tabs.sticky      # Static upper section tabs (stay)
+    - navigation.sections
     - navigation.top
     - navigation.footer           # Add 'previous' and 'next' buttons in the footer
     - navigation.instant          # Keep navigation from reloading
@@ -31,13 +26,27 @@ theme:
     - search.suggest              # Display likeliest completion for the last queried word
 
 
+
 nav:
   - Home: index.md
-  - About: method_direct.md
+  - Getting started:
+    - About the project: overview/project_overview.md
+  - Method: 
+    - Method overview: method/approach_overview.md
+    - Direct estimates: method/method_direct.md
+    - Our Innovations:
+      - Publications: method/publications.md
+      - Software development: method/software_development.md
+
+plugins:
+  - search
+  - bibtex:
+      bib_file: "docs/assets/refs.bib"
 
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
+  - footnotes
 
 extra_javascript:
   - javascripts/mathjax.js
