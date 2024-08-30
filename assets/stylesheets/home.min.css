@@ -355,7 +355,9 @@
 }
 
 .mdx-hero__teaser :not(.md-button) {
-    text-shadow: 0 0 .2rem #211d2dcc
+    /* text-shadow: 0 0 .2rem #211d2dcc */
+    text-shadow: 0 0 .1rem #211d2dcc
+
 }
 
 .mdx-hero .mdx-hero__attribution {
@@ -567,8 +569,8 @@
     }
 }
 
-[data-md-color-primary] .md-tabs {
+/* [data-md-color-primary] .md-tabs {
     background-color: initial;
     position: absolute;
     top: 2.4rem
-}
+} */
