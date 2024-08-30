@@ -2,7 +2,7 @@ Our research team has developed a suite of R packages that significantly enhance
 
 - We have been working on <a href="https://github.com/richardli/SUMMER" target="_blank">**SUMMER**</a> package since 2017 – focuses mostly on mortality estimation.
 - <a href="https://github.com/richardli/surveyPrev" target="_blank">**surveyPrev**</a> (*Richard*, *Qianyu*, *Yunhan*, *Andrea*, *Jon*) is on CRAN and allows SAE for binary indicators.
-- Experience from UN and WHO workshops in Ecuador, South Africa, Malawi, and Rwanda is that researchers need a more user-friendly interface – to this end, a <a href="https://rsc.stat.washington.edu/surveyPrevRShiny" target="_blank">**shinyApp**</a> has been developed by *Yunhan* and was premiered in a WHO workshop in Rwanda June 2024.
+- Experience from UN and WHO workshops in Ecuador, South Africa, Malawi, and Rwanda is that researchers need a more user-friendly interface – to this end, a <a href="https://rsc.stat.washington.edu/surveyPrevRShiny" target="_blank">**Shiny app**</a> has been developed by *Yunhan* and was premiered in a WHO workshop in Rwanda June 2024.
 - U5MR and fertility are hard because the data model is complex – can be done in <a href="https://github.com/richardli/SUMMER" target="_blank">**SUMMER**</a>.
 - With *Ben Mayala*, *Yunhan*, *Richard*, *Jon*, and others, created a <a href="https://github.com/wu-thomas/SUMMER-DHS" target="_blank"> **pipeline**</a> for U5MR using DHS data and <a href="https://github.com/richardli/SUMMER" target="_blank">**SUMMER**</a>.
 - **survey package**</a> now has a generic **sae module** thanks to *Peter*.

@@ -31,6 +31,8 @@ nav:
   - Home: index.md
   - Getting started:
     - About the project: overview/project_overview.md
+    - Instruction videos: overview/youtube.md
+
   - Method: 
     - Overview: method/approach_overview.md
     - Method details:
