@@ -40,6 +40,12 @@ nav:
     - Our innovations:
       - Publications: method/publications.md
       - Software development: method/software_development.md
+  
+  - Gallery:
+    - Maps: 
+      - Point Estimate: gallery/point_estimate.md
+      - Uncertainties: gallery/uncertainty_CI_CV.md
+      - Exceedance Probability: gallery/exceedance_probability.md
 
 plugins:
   - search
