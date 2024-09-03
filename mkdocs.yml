@@ -42,10 +42,12 @@ nav:
       - Software development: method/software_development.md
   
   - Gallery:
+    - Overview: gallery/visual_overview.md
     - Maps: 
       - Point Estimate: gallery/point_estimate.md
       - Uncertainties: gallery/uncertainty_CI_CV.md
       - Exceedance Probability: gallery/exceedance_probability.md
+    - Ridge plot: gallery/ridge_plot.md
 
 plugins:
   - search
@@ -56,6 +58,8 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - footnotes
+  - attr_list
+  - md_in_html
 
 extra_javascript:
   - javascripts/mathjax.js
