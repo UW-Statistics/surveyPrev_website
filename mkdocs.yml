@@ -37,6 +37,7 @@ nav:
     - Overview: method/approach_overview.md
     - Method details:
       - Direct estimates: method/method_direct.md
+      - Unit-level Model: method/method_unit.md
     - Our innovations:
       - Publications: method/publications.md
       - Software development: method/software_development.md
@@ -47,7 +48,9 @@ nav:
       - Point Estimate: gallery/point_estimate.md
       - Uncertainties: gallery/uncertainty_CI_CV.md
       - Exceedance Probability: gallery/exceedance_probability.md
+      - Comparison Maps: gallery/map_comparisons.md
     - Ridge plot: gallery/ridge_plot.md
+    - Scatter Plot: gallery/scatter_plot.md
 
 plugins:
   - search

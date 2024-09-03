@@ -11,11 +11,11 @@ Our interactive map enhances user engagement with a hover effect that displays r
     <iframe src="../maps/RW_adm3_unit_mean.html" style="border: none; width: 100%; height: 500px;"></iframe>
 </div>
 
-The above prevalence map illustrates contraceptive usage among women aged 15-49 in Rwanda at the admin-3 level, using a unit-level model based on the 2019 Rwanda DHS data. This model employs <span style="color: blue">spatial smoothing </span>, which enhances estimates in data-sparse areas by <span style="color: blue"> borrowing information from neighboring regions</span>, thereby ensuring a smoother visual representation across the map. The specific map indicates higher contraceptive usage in the northeastern regions compared to the southwestern parts of the country. Such spatial patterns are commonly observed in these maps. Users are encouraged to further interpret these results, using country-specific insights to delve into the underlying reasons, and/or tailor interventions based on local needs and conditions. 
+The above prevalence map illustrates contraceptive usage among women aged 15-49 in Rwanda at the Admin-3 level, using a [unit-level model](../method/method_unit.md) based on the 2019 Rwanda DHS data. This model employs <span style="color: blue">spatial smoothing </span>, which enhances estimates in data-sparse areas by <span style="color: blue"> borrowing information from neighboring regions</span>, thereby ensuring a smoother visual representation across the map. The specific map indicates higher contraceptive usage in the northeastern regions compared to the southwestern parts of the country. Such spatial patterns are commonly observed in these maps. Users are encouraged to further interpret these results, using country-specific insights to delve into the underlying reasons, and/or tailor interventions based on local needs and conditions. 
 
 ## Direct Estimates Results
 
-In general, direct estimation methods yield reliable results at broader spatial scales such as national or admin-1 levels. However, at more granular levels like admin-3, these methods often fail to provide accurate estimates, a limitation we will explore through the following map for the same indicator (contraceptive usage among women aged 15-49 in Rwanda). 
+In general, direct estimation methods yield reliable results at broader spatial scales such as national or Admin-1 levels. However, at more granular levels like Admin-3, these methods often fail to provide accurate estimates, a limitation we will explore through the following map for the same indicator (contraceptive usage among women aged 15-49 in Rwanda). 
 
 <div>
     <iframe src="../maps/RW_adm3_direct_mean.html" style="border: none; width: 100%; height: 500px;"></iframe>

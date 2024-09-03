@@ -4,11 +4,11 @@ This Shiny app provides a suite of creative visualization tools designed to help
 
 The full collection of visualization tools are listed below, categorized to meet different analytical needs:
 
-- **Maps for Key Statistical Measure**: 
+- **Maps for Key Statistical Measures**: 
 
 <div class="grid cards" markdown>
 
-- __[Prevalence Maps]__ – Visualize the point estimates of prevalence across regions.
+- __[Prevalence Maps]__ – Point estimates of prevalence across regions.
 - __[Uncertainty Maps]__ – Width of credible intervals and coefficient of variation.
 
 </div>
@@ -29,6 +29,14 @@ The full collection of visualization tools are listed below, categorized to meet
 
 -  **Model Comparison Tools**:
 
+<div class="grid cards" markdown>
+
+- __[Scatter Plots]__ – Model estimates plotted against each other.
+- __[Comparison Maps]__ – Side-by-side maps across regions.
+
+</div>
+[Scatter Plots]: scatter_plot.md
+[Comparison Maps]: map_comparisons.md
 
 
 
