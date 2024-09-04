@@ -5,3 +5,5 @@ For the past decade, our research team has engaged in extensive methodological w
 - **Space-time modeling for U5MR at Admin1:** Mercer, L., Wakefield, J., Pantazis, A., Lutambi, A., Mosanja, H., & Clark, S. (2015). Small area estimation of childhood mortality in the absence of vital registration. *Annals of Applied Statistics, 9*(4), 1889-1905.
 
 - **Uses the previous model for U5MR estimation for 35 sub-Saharan countries, for Admin1:** Li, Z. R., Hsiao, Y., Godwin, J., Martin, B. D., Wakefield, J., & Clark, S. J. (2019). Changes in the spatial distribution of the under five mortality rate: small-area analysis of 122 DHS surveys in 262 subregions of 35 countries in Africa. *PLoS One, 14*(1), e0210645.
+
+- **A lot more to be added**

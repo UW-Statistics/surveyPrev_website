@@ -16,7 +16,7 @@
         <link rel="prev" href="../approach_overview/">
       
       
-        <link rel="next" href="../publications/">
+        <link rel="next" href="../method_unit/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -514,6 +514,8 @@
       
         
       
+        
+      
     
     
       
@@ -606,7 +608,7 @@
           <li class="md-nav__item">
   <a href="#advantages" class="md-nav__link">
     <span class="md-ellipsis">
-      Advantages:
+      Advantages
     </span>
   </a>
   
@@ -615,7 +617,7 @@
           <li class="md-nav__item">
   <a href="#disadvantages" class="md-nav__link">
     <span class="md-ellipsis">
-      Disadvantages:
+      Disadvantages
     </span>
   </a>
   
@@ -639,6 +641,27 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../method_unit/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Unit-level Model
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -770,6 +793,8 @@
       
         
       
+        
+      
     
     
       
@@ -832,6 +857,8 @@
   
     
     
+      
+        
       
         
       
@@ -935,6 +962,27 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gallery/map_comparisons/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Comparison Maps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -955,6 +1003,27 @@
   
   <span class="md-ellipsis">
     Ridge plot
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gallery/scatter_plot/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Scatter Plot
   </span>
   
 
@@ -1008,7 +1077,7 @@
           <li class="md-nav__item">
   <a href="#advantages" class="md-nav__link">
     <span class="md-ellipsis">
-      Advantages:
+      Advantages
     </span>
   </a>
   
@@ -1017,7 +1086,7 @@
           <li class="md-nav__item">
   <a href="#disadvantages" class="md-nav__link">
     <span class="md-ellipsis">
-      Disadvantages:
+      Disadvantages
     </span>
   </a>
   
@@ -1054,23 +1123,23 @@
 
   <h1>Direct estimates</h1>
 
-<h3 id="general-idea"><span style="color:royalblue">General idea</span></h3>
+<h2 id="general-idea"><span style="color:royalblue">General idea</span></h2>
 <p>The starting point for analysis, with the prevalence being estimated as a weighted average of the cluster means. Inference follows from assuming that a normal distribution describes the variation in the estimator. Inference is <strong>design-based</strong>, meaning estimators are judged with respect to their frequentist properties over hypothetical repeats of the survey with a fixed population. The term <strong>"direct"</strong> refers to estimates in each area being based solely on data from that area.</p>
-<h4 id="advantages">Advantages:</h4>
+<h3 id="advantages">Advantages</h3>
 <ul>
 <li><strong>Design-Consistency:</strong> Estimates and uncertainty measures account for the design via weighting, avoiding bias due to informative sampling (e.g., oversampling of urban clusters). This leads to estimators that are approximately unbiased, which is highly desirable.</li>
 <li><strong>Accuracy in Large Samples:</strong> When there are a large number of clusters in an area, confidence intervals constructed from the normality assumption are accurate for each area.</li>
 <li><strong>Minimal Assumptions:</strong> No explicit model is required for the data, making this approach straightforward and intuitive to describe.</li>
 <li><strong>Applicability:</strong> Often provides reasonable inference for Admin-1 areas, unless the outcome is very rare.</li>
 </ul>
-<h4 id="disadvantages">Disadvantages:</h4>
+<h3 id="disadvantages">Disadvantages</h3>
 <ul>
 <li><strong>High Uncertainty with Sparse Data:</strong> When data are sparse in an area, the estimator's uncertainty may be so high that the estimate is not useful. With few clusters, the point estimate of prevalence may be zero or one, making standard error calculations unreliable.</li>
 <li><strong>Inefficient Data Use:</strong> Collapsing data into a weighted estimate is not the most efficient use of the data.</li>
 <li><strong>Lack of Data Integration:</strong> The large uncertainty associated with weighted estimates arises because estimates in each area rely solely on data from that area. This contrasts with area-level and unit-level approaches that <strong>"borrow strength"</strong> from data across all areas.</li>
 <li><strong>Sample Size Dependence:</strong> The normality assumption relies on large sample sizes, but even when a point estimate and standard error are produced, sparse data can lead to inaccurate uncertainty intervals.</li>
 </ul>
-<h3 id="mathematical-details"><span style="color:royalblue">Mathematical details</span></h3>
+<h2 id="mathematical-details"><span style="color:royalblue">Mathematical details</span></h2>
 <p>For <span class="arithmatex">\( y_j \)</span> be the binary outcome of interest for the <span class="arithmatex">\( j^{\text{th}} \)</span> individual in the survey and <span class="arithmatex">\( w_j \)</span> be the design weight associated with this individual. For a given area denoted as <span class="arithmatex">\( i \)</span>, we have the weighted estimator: <span class="arithmatex">\( \hat{p}^{W}_{i} = \frac{\sum_{j \in S_i} y_j \cdot w_j}{\sum_{j \in S_i} w_j} \)</span>, where <span class="arithmatex">\( S_i \)</span> is the set of individual index within the <span class="arithmatex">\( i \)</span>-th region.</p>
 <p>Direct estimates at different Admin levels are calculated using <code>surveyPrev::directEST()</code> in the <strong>surveyPrev</strong> package and <code>SUMMER::smoothSurvey()</code> function in the <strong>SUMMER</strong> package internally (Li et al. 2020)<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.</p>
 <p>The confidence intervals are computed on the logit scale, i.e., if we use <span class="arithmatex">\( D_i \)</span> to denote the design-based variance of <span class="arithmatex">\( \hat p^{W}_i \)</span>, then the asymptotic design-based variance of <span class="arithmatex">\( \text{logit}(\hat p^{W}_i) \)</span> is</p>
@@ -1155,13 +1224,13 @@ E_t = Y_t - \tilde Y_t
         
         
           
-          <a href="../publications/" class="md-footer__link md-footer__link--next" aria-label="Next: Publications">
+          <a href="../method_unit/" class="md-footer__link md-footer__link--next" aria-label="Next: Unit-level Model">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Publications
+                Unit-level Model
               </div>
             </div>
             <div class="md-footer__button md-icon">
