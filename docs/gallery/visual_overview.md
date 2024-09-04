@@ -1,6 +1,6 @@
 # Overview of Visualization Tools
 
-This Shiny app provides a suite of creative visualization tools designed to help explore and interpret model estimates. While point estimates offer valuable insights, it is equally crucial to account for the uncertainty of indicator estimates when analyzing results. By leveraging our interactive visualization tools, the user can perform more robust inferences and make more informed decisions.
+The Shiny app provides a suite of creative visualization tools designed to help explore and interpret model estimates. While point estimates offer valuable insights, it is equally crucial to account for the uncertainty of indicator estimates when analyzing results. By leveraging our interactive visualization tools, the user can perform more robust inferences and make more informed decisions.
 
 The full collection of visualization tools are listed below, categorized to meet different analytical needs:
 

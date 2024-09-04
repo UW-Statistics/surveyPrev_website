@@ -1,5 +1,5 @@
 ## Project information
-site_name: surveyPrev
+site_name: SAEforHealth
 site_description: Powered by SurveyPrev and the R Shiny App
 
 ## Repository
@@ -10,8 +10,10 @@ edit_uri: ''  #disables edit button
 theme:
   name: material
   custom_dir: overrides\landing_page
-  icon: # https://www.materialpalette.com/icons
-    logo: material/map
+  #icon: # https://www.materialpalette.com/icons
+    #logo: material/map
+  logo: 
+    assets/Washington_Huskies_logo.svg
   features:
     - navigation.indexes          # Implied section 'index.md' files
     - navigation.tabs             # Static upper section tabs (exist)
@@ -33,7 +35,7 @@ nav:
     - About the project: overview/project_overview.md
     - Instruction videos: overview/youtube.md
 
-  - Method: 
+  - Methods: 
     - Overview: method/approach_overview.md
     - Method details:
       - Direct estimates: method/method_direct.md
@@ -42,7 +44,7 @@ nav:
       - Publications: method/publications.md
       - Software development: method/software_development.md
   
-  - Gallery:
+  - Visualizations:
     - Overview: gallery/visual_overview.md
     - Maps: 
       - Point Estimate: gallery/point_estimate.md
@@ -51,6 +53,9 @@ nav:
       - Comparison Maps: gallery/map_comparisons.md
     - Ridge plot: gallery/ridge_plot.md
     - Scatter Plot: gallery/scatter_plot.md
+
+  - About Us:
+    - STAB group: team/STAB_group.md
 
 plugins:
   - search
