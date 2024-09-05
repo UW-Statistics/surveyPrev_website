@@ -1,9 +1,10 @@
 # Prevalence Maps
 
-Prevalence maps are  essential tools for visualizing the distribution of health and demographic indicators across various geographic regions, particularly when examining subnational estimates within a country. These maps provide **point estimates** that reflect the 
-spatial variations in health outcomes, such as the prevalence of contraceptive use or vaccination rates.
+Prevalence maps are essential tools for visualizing the variation in health and demographic indicators across geographic regions.  These maps provide **point estimates** that reflect the spatial variation in health outcomes, such as the prevalence of modern contraceptive use or vaccination rates. 
 
-Our interactive map enhances user engagement with a hover effect that displays region-specific information, including region names and **uncertainties measures**, which are essential for accurately interpreting the results alongside point estimates (check out [uncertianty maps](uncertainty_CI_CV.md) and ridge plots). The hover effect is consistent across all maps, yet each single map specifically displays only one statistical measure. To compare different methods or measures across maps, please refer to the comparison maps section.
+Unless a complete enumeration of the relevant population is carried out, we will not know the prevalence with certainty, and associated with each area is a **range** of plausible values, hence it is essential to always examine the **uncertainty measures**, as well as the point estimate summary.
+
+Our interactive map enhances user engagement with a hover effect that displays region-specific information, including region names and **uncertainty measures**, which, as just noted, are essential for accurately interpreting the results alongside point estimates (check out [uncertianty maps](uncertainty_CI_CV.md) and [ridge plots](ridge_plot.md)). The hover effect is consistent across all maps, yet each single map specifically displays only one statistical measure. To compare different methods or measures across maps, please refer to the [comparison maps](map_comparisons.md).
 
 ## Unit-level Model Results
 

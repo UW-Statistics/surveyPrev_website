@@ -31,15 +31,17 @@ theme:
 
 nav:
   - Home: index.md
-  - Getting started:
-    - About the project: overview/project_overview.md
-    - Instruction videos: overview/youtube.md
+  - Getting Started:
+    - About the Project: overview/project_overview.md
+    - Instruction Videos: overview/youtube.md
 
   - Methods: 
     - Overview: method/approach_overview.md
-    - Method details:
-      - Direct estimates: method/method_direct.md
+    - Method Details:
+      - Direct Estimates: method/method_direct.md
+      - Area-level Model: method/method_area.md
       - Unit-level Model: method/method_unit.md
+      - Analysis Plan: method/method_plan.md
     - Our innovations:
       - Publications: method/publications.md
       - Software development: method/software_development.md
@@ -51,11 +53,11 @@ nav:
       - Uncertainties: gallery/uncertainty_CI_CV.md
       - Exceedance Probability: gallery/exceedance_probability.md
       - Comparison Maps: gallery/map_comparisons.md
-    - Ridge plot: gallery/ridge_plot.md
+    - Ridge Plot: gallery/ridge_plot.md
     - Scatter Plot: gallery/scatter_plot.md
 
   - About Us:
-    - STAB group: team/STAB_group.md
+    - STAB Group: team/STAB_group.md
     - Collaborators: team/collaborators.md
 
 plugins:

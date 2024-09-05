@@ -1,7 +1,4 @@
-# STAB at University of Washington
-
-## Space Time Analysis Bayes (STAB) Lab
-
+# Space Time Analysis Bayes (STAB) Lab
 
 ## Principal Investigators
 <div class="grid cards" markdown>
@@ -25,7 +22,7 @@
 
 <div class="grid cards" markdown>
 
-- <a href="https://www.linkedin.com/in/qy42" target="_blank">Qianyu Dong</a> – PhD Candidate in Statistics at University of California Santa Cruz
+- <a href="https://qianyu313.github.io/qd33/" target="_blank">Qianyu Dong</a> – PhD Candidate in Statistics at University of California Santa Cruz
     <figure markdown="span">
     ![Image title](../team/photos/qianyu_smile.jpg){width='150'}
     </figure>

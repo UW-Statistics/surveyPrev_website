@@ -19,9 +19,9 @@ The project is centered around several key objectives:
 ## Geographic Levels of Analysis
 The tool supports analysis across different levels of geographic hierarchy:
 
-- **Admin0 (National Level)**: Provides estimates for the entire country.
-- **Admin1 (First Subnational Level)**: Offers estimates for large regions or states within the country.
-- **Admin2 (Second Subnational Level) and Finer**: Provides estimates for smaller areas, such as districts or municipalities.
+- **Admin-0 (National Level)**: Provides estimates for the entire country.
+- **Admin-1 (First Subnational Level)**: Offers estimates for large regions or states within the country.
+- **Admin-2 (Second Subnational Level) and Finer**: Provides estimates for smaller areas, such as districts or municipalities.
 
 ## Small Area Estimation (SAE)
 The [core methodology](../method/approach_overview.md) implemented in the tool is Small Area Estimation (SAE). SAE is essential for generating reliable estimates in areas where data may be sparse. It involves estimating a variable of interest within specific geographic areas, with a focus on accuracy despite potentially limited data availability.
