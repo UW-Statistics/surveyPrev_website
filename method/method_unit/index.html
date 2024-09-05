@@ -13,10 +13,10 @@
       
       
       
-        <link rel="prev" href="../method_direct/">
+        <link rel="prev" href="../method_area/">
       
       
-        <link rel="next" href="../publications/">
+        <link rel="next" href="../method_plan/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -218,7 +218,7 @@
   
     
   
-  Getting started
+  Getting Started
 
         </a>
       </li>
@@ -384,7 +384,7 @@
             
   
   <span class="md-ellipsis">
-    Getting started
+    Getting Started
   </span>
   
 
@@ -394,7 +394,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-            Getting started
+            Getting Started
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -409,7 +409,7 @@
         
   
   <span class="md-ellipsis">
-    About the project
+    About the Project
   </span>
   
 
@@ -430,7 +430,7 @@
         
   
   <span class="md-ellipsis">
-    Instruction videos
+    Instruction Videos
   </span>
   
 
@@ -534,6 +534,10 @@
       
         
       
+        
+      
+        
+      
     
     
       
@@ -551,7 +555,7 @@
             
   
   <span class="md-ellipsis">
-    Method details
+    Method Details
   </span>
   
 
@@ -561,7 +565,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_2">
             <span class="md-nav__icon md-icon"></span>
-            Method details
+            Method Details
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -576,7 +580,28 @@
         
   
   <span class="md-ellipsis">
-    Direct estimates
+    Direct Estimates
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../method_area/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Area-level Model
   </span>
   
 
@@ -680,6 +705,27 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../method_plan/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Analysis Plan
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -1020,7 +1066,7 @@
         
   
   <span class="md-ellipsis">
-    Ridge plot
+    Ridge Plot
   </span>
   
 
@@ -1115,7 +1161,7 @@
         
   
   <span class="md-ellipsis">
-    STAB group
+    STAB Group
   </span>
   
 
@@ -1237,7 +1283,7 @@
   <h1>Unit-level Model</h1>
 
 <h2 id="general-idea"><span style="color:royalblue">General idea</span></h2>
-<p>This SAE method was introduced by (Battese et al., 1988)<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> and is the closest to a conventional model-based approach, since a sampling model is used at the cluster-level, specifically an overdispersed binomial model. As with the area-level model, the area-specific prevalences across areas are linked via a hierarchical model. Again, the rationale is that the similarity of prevalences across the study region may be leveraged to fine-tune the estimates in each area. Since data from all areas is used for estimation in each area, this is another example of the production of “indirect” estimates.</p>
+<p>This SAE method was introduced by Battese et al. <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> and is the closest to a conventional model-based approach, since a sampling model is used at the cluster-level, specifically an overdispersed binomial model. As with the area-level model, the area-specific prevalences across areas are linked via a hierarchical model. Again, the rationale is that the similarity of prevalences across the study region may be leveraged to fine-tune the estimates in each area. Since data from all areas is used for estimation in each area, this is another example of the production of “indirect” estimates.</p>
 <h3 id="advantages">Advantages</h3>
 <ul>
 <li><strong>Sparse Data Handling</strong>: If the data are sparse, this is the only method that can be used, since the cluster-level overdispersed
@@ -1249,7 +1295,7 @@ the approach is an efficient use of the data.</li>
 <li><strong>Uncertainty Reduction</strong>: By modeling all the data in unison, uncertainty in each area is reduced (on average).</li>
 <li><strong>Reasonable Assumption</strong>: The model that links the areas together is an additional assumption, when compared to the direct
 estimates, but this is typically not a strong assumption.</li>
-<li><strong>Mean-squared Error Reduction</strong>: The linking model will shrink high and low weighted prevalences toward the national estimate, which is desirable when the data are sparse, but this does lead to (frequentist) bias. But the rationale for the approach is that the gain in precision will offset the shrinkage bias. Specifically, there is theory that suggests that on average the mean-squared error (bias2+variance) will be reduced for estimates from hierarchical models, when compared to direct estimates.</li>
+<li><strong>Mean-squared Error Reduction</strong>: The linking model will shrink high and low weighted prevalences toward the national estimate, which is desirable when the data are sparse, but this does lead to (frequentist) bias. But the rationale for the approach is that the gain in precision will offset the shrinkage bias. Specifically, there is theory that suggests that on average the mean-squared error (<span class="arithmatex">\(\text{bias}^2\)</span>+variance) will be reduced for estimates from hierarchical models, when compared to direct estimates.</li>
 </ul>
 <h3 id="disadvantages">Disadvantages</h3>
 <ul>
@@ -1261,11 +1307,26 @@ modeling the association between prevalence and urban/rural and including a clus
 informative to discriminate from the “flat” map case.</li>
 </ul>
 <h3 id="mathematical-details"><span style="color:royalblue">Mathematical details</span></h3>
+<p>Unit-level models assume smoothing models for counts of events in each cluster (Wakefield, Okonek, and
+Pedersen, 2020<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>; Li et al. 2020<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>). In terms of traditional Small Area Estimation literature, cluster-level models are a type of unit-level model. Currently, the app implements an unstratified model without taking into account the urban/rural stratification in the sampling design.</p>
+<p>Let <span class="arithmatex">\(Y_c\)</span> be the number of events in cluster <span class="arithmatex">\(c\)</span>, and <span class="arithmatex">\(n_c\)</span> be the number of individuals at risk, where <span class="arithmatex">\(c= 1,\dots,C\)</span>. The unstratified model assumes the hierarchical structure:</p>
+<div class="arithmatex">\[Y_c \mid p_c,d\sim \textrm{BetaBinomial}(n_c,p_c,d),\]</div>
+<div class="arithmatex">\[p_c=\textrm{expit}(\alpha+e_{i[s_c]}+S_{i[s_c]}),\]</div>
+<p>where <span class="arithmatex">\(\alpha\)</span> is the intercept, and <span class="arithmatex">\(i[s_c]\)</span> indexes the area within which the cluster <span class="arithmatex">\(s_c\)</span> resides. Similar to the area-level model, <span class="arithmatex">\(e_i\)</span> and <span class="arithmatex">\(S_i\)</span> are unstructured and structured spatial random effects with the same prior as before. The Beta-binomial distribution arise from a hierarchical model where the probability follows a <span class="arithmatex">\(\text{Beta}(a, b)\)</span> prior. The overdispersion parameter, <span class="arithmatex">\(d=\frac{1}{\alpha+\beta+1}\)</span>, is between 0 and 1 and represent the the intracluster correlation between Bernoulli draws within cluster.</p>
+<!-- , corr($z_k,z_{k'}$), where $z_k$ is the binary response in $y_c$, $y_c=\sum_{k=1}^{n_c}z_k$). -->
+<p>The default prior for <span class="arithmatex">\(d\)</span> is <span class="arithmatex">\(\text{logit}(d) \sim \text{Normal}(0,0.4)\)</span>.  </p>
+<p>The app implements the unit-level model via <code>surveyPrev::clusterModel()</code> function, with BYM2 model for the spatial random effects. The app currently only supports unstratified models. Please refer to <strong>surveyPrev</strong> package for stratified unit-level model.</p>
 <div class="footnote">
 <hr />
 <ol>
 <li id="fn:1">
 <p>George E Battese, Rachel M Harter, and Wayne A Fuller. An error-components model for prediction of county crop areas using survey and satellite data. <em>Journal of the American Statistical Association</em>, 83:28–36, 1988.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Jon Wakefield, Taylor Okonek, and Jon Pedersen. Small area estimation for disease prevalence mapping. <em>International Statistical Review</em>, 88:398–418, 2020.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>Zehang R Li, Bryan D Martin, Tracy Q Dong, Geir-Arne Fuglstad, Jessica Godwin, John Paige, Andrea Riebler, Samuel Clark, and Jon Wakefield. <em>Space-Time Smoothing of Demographic and Health Indicators using the R Package SUMMER</em>. 2020.&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
@@ -1307,7 +1368,7 @@ informative to discriminate from the “flat” map case.</li>
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../method_direct/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Direct estimates">
+          <a href="../method_area/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Area-level Model">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -1317,20 +1378,20 @@ informative to discriminate from the “flat” map case.</li>
                 Previous
               </span>
               <div class="md-ellipsis">
-                Direct estimates
+                Area-level Model
               </div>
             </div>
           </a>
         
         
           
-          <a href="../publications/" class="md-footer__link md-footer__link--next" aria-label="Next: Publications">
+          <a href="../method_plan/" class="md-footer__link md-footer__link--next" aria-label="Next: Analysis Plan">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Publications
+                Analysis Plan
               </div>
             </div>
             <div class="md-footer__button md-icon">
