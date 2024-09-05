@@ -56,6 +56,7 @@ nav:
 
   - About Us:
     - STAB group: team/STAB_group.md
+    - Collaborators: team/collaborators.md
 
 plugins:
   - search
