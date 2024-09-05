@@ -16,7 +16,7 @@
         <link rel="prev" href="../approach_overview/">
       
       
-        <link rel="next" href="../method_unit/">
+        <link rel="next" href="../method_area/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -218,7 +218,7 @@
   
     
   
-  Getting started
+  Getting Started
 
         </a>
       </li>
@@ -384,7 +384,7 @@
             
   
   <span class="md-ellipsis">
-    Getting started
+    Getting Started
   </span>
   
 
@@ -394,7 +394,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-            Getting started
+            Getting Started
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -409,7 +409,7 @@
         
   
   <span class="md-ellipsis">
-    About the project
+    About the Project
   </span>
   
 
@@ -430,7 +430,7 @@
         
   
   <span class="md-ellipsis">
-    Instruction videos
+    Instruction Videos
   </span>
   
 
@@ -534,6 +534,10 @@
       
         
       
+        
+      
+        
+      
     
     
       
@@ -551,7 +555,7 @@
             
   
   <span class="md-ellipsis">
-    Method details
+    Method Details
   </span>
   
 
@@ -561,7 +565,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_2">
             <span class="md-nav__icon md-icon"></span>
-            Method details
+            Method Details
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -583,7 +587,7 @@
           
   
   <span class="md-ellipsis">
-    Direct estimates
+    Direct Estimates
   </span>
   
 
@@ -594,7 +598,7 @@
         
   
   <span class="md-ellipsis">
-    Direct estimates
+    Direct Estimates
   </span>
   
 
@@ -671,11 +675,53 @@
   
   
     <li class="md-nav__item">
+      <a href="../method_area/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Area-level Model
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../method_unit/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     Unit-level Model
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../method_plan/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Analysis Plan
   </span>
   
 
@@ -1020,7 +1066,7 @@
         
   
   <span class="md-ellipsis">
-    Ridge plot
+    Ridge Plot
   </span>
   
 
@@ -1115,7 +1161,7 @@
         
   
   <span class="md-ellipsis">
-    STAB group
+    STAB Group
   </span>
   
 
@@ -1234,23 +1280,23 @@
                   
 
 
-  <h1>Direct estimates</h1>
+  <h1>Direct Estimates</h1>
 
 <h2 id="general-idea"><span style="color:royalblue">General idea</span></h2>
 <p>The starting point for analysis, with the prevalence being estimated as a weighted average of the cluster means. Inference follows from assuming that a normal distribution describes the variation in the estimator. Inference is <strong>design-based</strong>, meaning estimators are judged with respect to their frequentist properties over hypothetical repeats of the survey with a fixed population. The term <strong>"direct"</strong> refers to estimates in each area being based solely on data from that area.</p>
 <h3 id="advantages">Advantages</h3>
 <ul>
-<li><strong>Design-Consistency:</strong> Estimates and uncertainty measures account for the design via weighting, avoiding bias due to informative sampling (e.g., oversampling of urban clusters). This leads to estimators that are approximately unbiased, which is highly desirable.</li>
-<li><strong>Accuracy in Large Samples:</strong> When there are a large number of clusters in an area, confidence intervals constructed from the normality assumption are accurate for each area.</li>
-<li><strong>Minimal Assumptions:</strong> No explicit model is required for the data, making this approach straightforward and intuitive to describe.</li>
-<li><strong>Applicability:</strong> Often provides reasonable inference for Admin-1 areas, unless the outcome is very rare.</li>
+<li><strong>Design-Consistency</strong>: Estimates and uncertainty measures account for the design via weighting, avoiding bias due to informative sampling (e.g., oversampling of urban clusters). This leads to estimators that are approximately unbiased, which is highly desirable.</li>
+<li><strong>Accuracy in Large Samples</strong>: When there are a large number of clusters in an area, confidence intervals constructed from the normality assumption are accurate for each area.</li>
+<li><strong>Minimal Assumptions</strong>: No explicit model is required for the data, making this approach straightforward and intuitive to describe.</li>
+<li><strong>Applicability</strong>: Often provides reasonable inference for Admin-1 areas, unless the outcome is very rare.</li>
 </ul>
 <h3 id="disadvantages">Disadvantages</h3>
 <ul>
-<li><strong>High Uncertainty with Sparse Data:</strong> When data are sparse in an area, the estimator's uncertainty may be so high that the estimate is not useful. With few clusters, the point estimate of prevalence may be zero or one, making standard error calculations unreliable.</li>
-<li><strong>Inefficient Data Use:</strong> Collapsing data into a weighted estimate is not the most efficient use of the data.</li>
-<li><strong>Lack of Data Integration:</strong> The large uncertainty associated with weighted estimates arises because estimates in each area rely solely on data from that area. This contrasts with area-level and unit-level approaches that <strong>"borrow strength"</strong> from data across all areas.</li>
-<li><strong>Sample Size Dependence:</strong> The normality assumption relies on large sample sizes, but even when a point estimate and standard error are produced, sparse data can lead to inaccurate uncertainty intervals.</li>
+<li><strong>High Uncertainty with Sparse Data</strong>: When data are sparse in an area, the estimator's uncertainty may be so high that the estimate is not useful. With few clusters, the point estimate of prevalence may be zero or one, making standard error calculations unreliable.</li>
+<li><strong>Inefficiency</strong>: Collapsing data into a weighted estimate is not the most efficient use of the data.</li>
+<li><strong>Lack of Data Integration</strong>: The large uncertainty associated with weighted estimates arises because estimates in each area rely solely on data from that area. This contrasts with area-level and unit-level approaches that <strong>"borrow strength"</strong> from data across all areas.</li>
+<li><strong>Sample Size Dependence</strong>: The normality assumption relies on large sample sizes, but even when a point estimate and standard error are produced, sparse data can lead to inaccurate uncertainty intervals.</li>
 </ul>
 <h2 id="mathematical-details"><span style="color:royalblue">Mathematical details</span></h2>
 <p>For <span class="arithmatex">\( y_j \)</span> be the binary outcome of interest for the <span class="arithmatex">\( j^{\text{th}} \)</span> individual in the survey and <span class="arithmatex">\( w_j \)</span> be the design weight associated with this individual. For a given area denoted as <span class="arithmatex">\( i \)</span>, we have the weighted estimator: <span class="arithmatex">\( \hat{p}^{W}_{i} = \frac{\sum_{j \in S_i} y_j \cdot w_j}{\sum_{j \in S_i} w_j} \)</span>, where <span class="arithmatex">\( S_i \)</span> is the set of individual index within the <span class="arithmatex">\( i \)</span>-th region.</p>
@@ -1260,20 +1306,7 @@
 V_i = \frac{D_i}{(\hat{p}^{W}_i)^2 \times (1 - \hat{p}^{W}_i)^2}
 \]</div>
 <p>and we compute the confidence interval on the probability scale by exponentiation of the confidence interval at logit scale.</p>
-<p>Currently the package defaults to a two-stage stratified cluster sampling design, with the sampling clusters (enumeration areas) being stratified by Admin-1 (certain countries Admin-2) areas and urban/rural strata, which is the most common sampling design in the DHS.</p>
-<p>Note that under this model, the expected death counts for the same week/month over different years remains the same, thus it does not account for any across-year variation or time trend. The standard error of the expected death count <span class="arithmatex">\( \tilde Y_t \)</span> is estimated by the sample standard deviation of the death counts in the same month/week during pre-pandemic years, divided by the square root of the number of observations used to compute the sample average.</p>
-<p>Finally the 95% lower and upper confidence interval of the expected deaths are computed by the Wald type interval</p>
-<div class="arithmatex">\[
-(\tilde Y_t - 1.96 \times SE(\tilde Y_t),  \tilde Y_t + 1.96 \times SE(\tilde Y_t))
-\]</div>
-<p>The excess death counts are computed by</p>
-<div class="arithmatex">\[
-E_t = Y_t - \tilde Y_t
-\]</div>
-<p>and the 95% confidence interval is given by</p>
-<div class="arithmatex">\[
-(Y_t - \tilde Y_t - 1.96 \times SE(\tilde Y_t), Y_t - \tilde Y_t + 1.96 \times SE(\tilde Y_t))
-\]</div>
+<p>Currently the our implementation defaults to a two-stage stratified cluster sampling design, with the sampling clusters (enumeration areas) being stratified by Admin-1 (certain countries Admin-2) areas and urban/rural strata, which is the most common sampling design in the DHS.</p>
 <div class="footnote">
 <hr />
 <ol>
@@ -1337,13 +1370,13 @@ E_t = Y_t - \tilde Y_t
         
         
           
-          <a href="../method_unit/" class="md-footer__link md-footer__link--next" aria-label="Next: Unit-level Model">
+          <a href="../method_area/" class="md-footer__link md-footer__link--next" aria-label="Next: Area-level Model">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Unit-level Model
+                Area-level Model
               </div>
             </div>
             <div class="md-footer__button md-icon">
