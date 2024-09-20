@@ -7,7 +7,10 @@
     <!-- <p style="font-style: italic; padding: 20px; margin: 20px 0; background-color: #f9f9f9; color: #333; border-radius: 5px; text-align: left; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
         "In my professional life, I’ve tried to develop models that can be useful. This project has been an opportunity to do something really important."
     </p> -->
-![Image title](../team/photos/wakefield_no_smile.jpg){ align=left }
+   <!-- ![Image title](../team/photos/wakefield_no_smile.jpg){ align=left }-->
+    <figure markdown="span">
+    ![Image title](../team/photos/wakefield_no_smile.jpg){width='170' }
+    </figure>
 
 - <a href="https://zehangli.com/" target="_blank">Zehang Richard Li</a> – Assistant Professor of Statistics at University of California Santa Cruz
     <figure markdown="span">
@@ -18,7 +21,7 @@
 </div>
 
 
-## Members involved in the project
+## Team Members
 
 <div class="grid cards" markdown>
 
@@ -38,7 +41,15 @@
         Lead developer for the R Shiny app and the SAE4Health website.
     </p>
 
+- <a href="https://www.linkedin.com/in/miaolei-bao-95683a294" target="_blank">Miaolei Bao</a> – Graduate Student in Biostatistics at University of Washington
+    <figure markdown="span">
+    ![Image title](../team/photos/miaolei_no_smile.jpg){width='200'}
+    </figure>
+    <p style="font-style: italic; padding: 10px; margin: 10px 0; background-color: #f9f9f9; color: #333; border-radius: 5px; text-align: left; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+        Managed indicator coding schemes and validation.
+    </p>
+
 </div>
 
 
-Graduate students at UW: Miaolei Bao, Andrea Boskovic, Ameer Dharamshi, Jitong Jiang, Joshua Yang, Zihang Yu.
+Graduate students at UW: Andrea Boskovic, Ameer Dharamshi, Jitong Jiang, Joshua Yang, Zihang Yu.

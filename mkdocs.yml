@@ -40,6 +40,7 @@ nav:
       - Data Preparation: overview/youtube_data_request.md
       - R Shiny App Demo: overview/youtube_app_demo.md
       - Method Learning Sessions: overview/youtube_method_lecture.md
+    - Resource Links: overview/resource_links.md
 
   - Methods: 
     - Overview: method/approach_overview.md
@@ -76,7 +77,11 @@ markdown_extensions:
       generic: true
   - footnotes
   - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - md_in_html
+
 
 extra_javascript:
   - javascripts/mathjax.js
