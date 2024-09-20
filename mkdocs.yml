@@ -33,7 +33,13 @@ nav:
   - Home: index.md
   - Getting Started:
     - About the Project: overview/project_overview.md
-    - Instruction Videos: overview/youtube.md
+    - Installation:
+      - R Shiny App (General Version): overview/app_general.md
+      - R Shiny App (WHO Version): overview/app_WHO.md
+    - Instruction Videos: 
+      - Data Preparation: overview/youtube_data_request.md
+      - R Shiny App Demo: overview/youtube_app_demo.md
+      - Method Learning Sessions: overview/youtube_method_lecture.md
 
   - Methods: 
     - Overview: method/approach_overview.md

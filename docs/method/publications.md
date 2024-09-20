@@ -8,7 +8,7 @@ For the past decade, our research team has engaged in extensive methodological w
 
 - **Uses the previous model for U5MR estimation for 35 sub-Saharan countries, for Admin1**:
  <br />
-        * Li, Z. R., Hsiao, Y., Godwin, J., Martin, B. D., Wakefield, J., & Clark, S. J. (2019). Changes in the spatial distribution of the under five mortality rate: small-area analysis of 122 DHS surveys in 262 subregions of 35 countries in Africa. *PLoS One, 14*(1), e0210645.
+  Li, Z. R., Hsiao, Y., Godwin, J., Martin, B. D., Wakefield, J., & Clark, S. J. (2019). Changes in the spatial distribution of the under five mortality rate: small-area analysis of 122 DHS surveys in 262 subregions of 35 countries in Africa. *PLoS One, 14*(1), e0210645.
 
 <!-- wakefield:etal:19 -->
 - **Describes area- and unit-level models**:
