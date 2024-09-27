@@ -66,9 +66,14 @@ nav:
   - About Us:
     - STAB Group: team/STAB_group.md
     - Collaborators: team/collaborators.md
+    - Contact Us: team/contact_us.md
+
+  - Blog:
+    - blog/index.md
 
 plugins:
   - search
+  - blog
   - bibtex:
       bib_file: "docs/assets/refs.bib"
 
