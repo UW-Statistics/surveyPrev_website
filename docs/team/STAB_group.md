@@ -65,8 +65,16 @@
         Streamlined analysis pipeline for MICS surveys.
     </p>
 
+- <a href="https://aboskovic21.github.io/" target="_blank">Andrea Boskovic</a> – PhD Student in Statistics at University of Washington
+    <figure markdown="span">
+    ![Image title](../team/photos/andrea_smile.jpg){width='140'}
+    </figure>
+    <p style="font-style: italic; padding: 10px; margin: 10px 0; background-color: #f9f9f9; color: #333; border-radius: 5px; text-align: left; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+        Optimized variance calculation methods.
+    </p>
+
 
 </div>
 
 
-Other graduate students at UW: Andrea Boskovic, Ameer Dharamshi, Joshua Yang
+Other graduate students at UW: Ameer Dharamshi, Joshua Yang
