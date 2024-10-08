@@ -14,6 +14,8 @@ theme:
     #logo: material/map
   logo: 
     assets/Washington_Huskies_logo.svg
+  favicon: 
+    assets/Washington_Huskies_logo.svg
   features:
     - navigation.indexes          # Implied section 'index.md' files
     - navigation.tabs             # Static upper section tabs (exist)
