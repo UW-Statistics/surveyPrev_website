@@ -3,9 +3,9 @@ site_name: SAE4Health
 site_description: Powered by SurveyPrev and the R Shiny App
 
 ## Repository
-repo_name: surveyPrev_website
-repo_url: https://github.com/wu-thomas/surveyPrev_website
-edit_uri: ''  #disables edit button
+# repo_name: surveyPrev_website
+# repo_url: https://github.com/wu-thomas/surveyPrev_website
+# edit_uri: ''  #disables edit button
 
 theme:
   name: material
