@@ -1,5 +1,9 @@
 # Space Time Analysis Bayes (STAB) Lab
 
+The <a href="https://alanamcgovern.github.io/stablab/" target="_blank">Space-Time Analysis Bayes (STAB) Research Group</a>, led by professor <a href="https://faculty.washington.edu/jonno/" target="_blank">Jon Wakefield</a> at the University of Washington, is a multidisciplinary research group focused on spatial health research. Members hail from diverse fields including Epidemiology, Global Health, Sociology, Health Metrics Sciences, and Geography, enhancing our focus on spatial and spatio-temporal methods for low- and middle-income countries (LMICs). Check out our website <a href="https://alanamcgovern.github.io/stablab/" target="_blank">here</a>. 
+
+Meet our team members who are involved in the SAE4Health Project.
+
 ## Principal Investigators
 <div class="grid cards" markdown>
 
