@@ -1,4 +1,4 @@
-Here is the written documentation for our method. Additionally, explore our engaging [**video lecture**](../overview/youtube_method_lecture.md) presented by Professor <a href="https://faculty.washington.edu/jonno/" target="_blank">Jon Wakefield</a> from University of Washington.
+Here is the written documentation for our method. Additionally, explore our engaging [**video lecture**](../overview/youtube_method_lecture.md) presented by Professor <a href="https://faculty.washington.edu/jonno/" target="_blank">Jon Wakefield</a> from University of Washington. The slides are available [**here**](../overview/sae_slides.md).
 
 ## Small Area Estimation (SAE)
 

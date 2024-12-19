@@ -42,6 +42,8 @@ nav:
       - Data Preparation: overview/youtube_data_request.md
       - R Shiny App Demo: overview/youtube_app_demo.md
       - Method Learning Sessions: overview/youtube_method_lecture.md
+    - Presentation Slides:
+      - Small Area Estimation Lecture: overview/sae_slides.md
     - Resource Links: overview/resource_links.md
 
   - Methods: 
