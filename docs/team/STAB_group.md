@@ -45,6 +45,14 @@ Meet our team members who are involved in the SAE4Health Project.
         Lead developer for the R Shiny app and the SAE4Health website.
     </p>
 
+- <a href="https://ameerd.github.io/" target="_blank">Ameer Dharamshi</a> – PhD Student in Biostatistics at University of Washington
+    <figure markdown="span">
+    ![Image title](../team/photos/ameer_smile.jpg){width='160'}
+    </figure>
+    <p style="font-style: italic; padding: 10px; margin: 10px 0; background-color: #f9f9f9; color: #333; border-radius: 5px; text-align: left; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+        Exploring the use of covariates in small-area models.
+    </p>
+
 - <a href="https://www.linkedin.com/in/miaolei-bao-95683a294" target="_blank">Miaolei Bao</a> – Graduate Student in Biostatistics at University of Washington
     <figure markdown="span">
     ![Image title](../team/photos/miaolei_no_smile.jpg){width='220'}
@@ -69,6 +77,14 @@ Meet our team members who are involved in the SAE4Health Project.
         Streamlined analysis pipeline for MICS surveys.
     </p>
 
+- <a href="https://www.linkedin.com/in/jieyi-xu-500204261" target="_blank">Jieyi Xu</a> – Graduate Student in Biostatistics at University of Washington
+    <figure markdown="span">
+    ![Image title](../team/photos/jieyi_no_smile.jpg){width='200'}
+    </figure>
+    <p style="font-style: italic; padding: 10px; margin: 10px 0; background-color: #f9f9f9; color: #333; border-radius: 5px; text-align: left; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+        Developer for the MICS version of the R Shiny app.
+    </p>
+
 - <a href="https://aboskovic21.github.io/" target="_blank">Andrea Boskovic</a> – PhD Student in Statistics at University of Washington
     <figure markdown="span">
     ![Image title](../team/photos/andrea_smile.jpg){width='140'}
@@ -81,4 +97,4 @@ Meet our team members who are involved in the SAE4Health Project.
 </div>
 
 
-Other graduate students at UW: Ameer Dharamshi, Joshua Yang
+Other graduate students at UW: Joshua Yang
