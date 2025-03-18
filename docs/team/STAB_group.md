@@ -85,16 +85,15 @@ Meet our team members who are involved in the SAE4Health Project.
         Developer for the MICS version of the R Shiny app.
     </p>
 
-- <a href="https://aboskovic21.github.io/" target="_blank">Andrea Boskovic</a> – PhD Student in Statistics at University of Washington
+
+- <a href="https://sz-yang.github.io/JoshuaYang.github.io/" target="_blank">Shizhao Joshua Yang</a> – Graduate Student in Biostatistics at University of Washington
     <figure markdown="span">
-    ![Image title](../team/photos/andrea_smile.jpg){width='140'}
+    ![Image title](../team/photos/Josh_no_smile.jpg){width='170'}
     </figure>
     <p style="font-style: italic; padding: 10px; margin: 10px 0; background-color: #f9f9f9; color: #333; border-radius: 5px; text-align: left; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-        Optimized variance calculation methods.
+        Streamlined analysis pipeline for MICS surveys.
     </p>
 
 
+
 </div>
-
-
-Other graduate students at UW: Joshua Yang

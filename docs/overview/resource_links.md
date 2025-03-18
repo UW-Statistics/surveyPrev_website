@@ -1,8 +1,9 @@
 
 <div class="grid cards" markdown>
 
-- :material-application: <a href="https://rsc.stat.washington.edu/surveyPrevRShiny/" target="_blank"><strong>General version</strong></a> and 
-<a href="https://rsc.stat.washington.edu/saeforhealth/" target="_blank"><strong>WHO version</strong></a> of the R Shiny app. 
+- :material-application: <a href="https://rsc.stat.washington.edu/surveyPrevRShiny/" target="_blank"><strong>DHS-General</strong></a>, 
+<a href="https://rsc.stat.washington.edu/saeforhealth/" target="_blank"><strong>DHS-WHO</strong></a> and 
+<a href="https://rsc.stat.washington.edu/surveyPrevRShinyMICS/" target="_blank"><strong>MICS</strong></a> versions of the R Shiny app. 
 - :material-package-variant-closed: <a href="https://github.com/richardli/surveyPrev/" target="_blank"><strong> SurveyPrev</strong></a> and <a href="https://github.com/richardli/SUMMER/" target="_blank"><strong> SUMMER</strong></a> package in R: fundations for our R Shiny app.
 - :fontawesome-brands-youtube: <a href="https://www.youtube.com/@SAE4Health/videos" target="_blank"><strong>SAE4Health Youtube channel</strong></a>: method lectures and app demo videos.
 - :octicons-book-16: <a href="https://api.dhsprogram.com/rest/dhs/indicators?f=html" target="_blank"><strong>DHS indicator dictionary</strong></a>: List of DHS indicator IDs and definitions.

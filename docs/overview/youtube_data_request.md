@@ -1,3 +1,7 @@
+## MICS Data Preparation
+
+For the countries we currently support, there is no need to upload any data; all data are securely stored internally on our server.
+
 
 ## DHS Data Preparation
 
@@ -13,5 +17,7 @@ Follow these steps to obtain access to DHS datasets (instruction videos availabl
 <iframe width="660" height="450" src="https://www.youtube.com/embed/VoXUXoRmHns?si=RKYqHhDg0uMw_DP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 </iframe>
 </div>
+
+
 
 <!-- <iframe src="https://www.youtube.com/watch?v=iV2gBOHhggs" allowfullscreen></iframe> -->

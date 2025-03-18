@@ -36,8 +36,9 @@ nav:
   - Getting Started:
     - About the Project: overview/project_overview.md
     - Installation:
-      - R Shiny App (General Version): overview/app_general.md
-      - R Shiny App (WHO Version): overview/app_WHO.md
+      - R Shiny App (DHS-General): overview/app_general.md
+      - R Shiny App (DHS-WHO): overview/app_WHO.md
+      - R Shiny App (MICS): overview/app_MICS.md
     - Instruction Videos: 
       - Data Preparation: overview/youtube_data_request.md
       - R Shiny App Demo: overview/youtube_app_demo.md
