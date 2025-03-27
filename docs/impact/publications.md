@@ -3,7 +3,7 @@ For the past decade, our research team has engaged in extensive methodological w
 
 ### Selected Publications
 
-- Wu, Y., & Wakefield, J. (2024). Modeling urban/rural fractions in low- and middle-income countries. *Journal of the Royal Statistical Society, Series A*. Published online: 19 January, 2024.
+- Wu, Y., & Wakefield, J. (2024). Modeling urban/rural fractions in low- and middle-income countries. *Journal of the Royal Statistical Society, Series A, 3*, 811-830. 
 
 - Gao, P.A., & Wakefield, J. (2024). Smoothed model-assisted small area estimation of proportions. *The Canadian Journal of Statistics, 52*, 337-358.
 

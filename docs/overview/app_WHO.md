@@ -39,43 +39,13 @@ functionality and serves as the primary distribution channel.
 
 ## Installation of the R Shiny app as a R package
 
-Some non-CRAN dependencies can be installed using the following command.
-We strongly recommend installing the most recent version of SUMMER and
-surveyPrev package from Github.
+The installation and setup procedure for the WHO workshop version of the `sae4health` app is the same as for the [DHS-general version](../overview/app_general.md), except for the following additional step:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("rspatial/geodata")
-devtools::install_github("richardli/SUMMER")
-devtools::install_github("richardli/surveyPrev")
-devtools::install_github("statnmap/HatchedPolygons")
-devtools::install_github("qianyu313/surveyPrevGithub")
-
-install.packages("INLA",repos=c(getOption("repos"),
-                        INLA="https://inla.r-inla-download.org/R/testing"),dep=TRUE)
+sae4health::run_app(version='DHS-WHO')
 ```
 
-You can then install the development version of saeforhealth with:
 
-``` r
-devtools::install_github("wu-thomas/saeforhealth-WHO")
-```
-
-Our tool depends specifically on 2.12.0 version of the labelled package,
-so we make sure the correct version is used.
-
-``` r
-remotes::install_version("labelled", "2.12.0")
-```
-
-You can launch the RShiny app with the following command, and we
-recommend opening a new browser tab from within the launched RShiny app
-for better accessing web links.
-
-``` r
-library(saeforhealth)
-saeforhealth::run_app()
-```
 
 ## Deploy the R Shiny app as a Docker image
 

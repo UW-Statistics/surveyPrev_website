@@ -1,8 +1,0 @@
-Our research team has developed a suite of R packages that significantly enhance the capabilities of researchers and public health professionals. These tools are designed to facilitate advanced statistical analyses with a focus on accessibility and practical application.
-
-- We have been working on <a href="https://github.com/richardli/SUMMER" target="_blank">**SUMMER**</a> package since 2017 – focuses mostly on mortality estimation.
-- <a href="https://github.com/richardli/surveyPrev" target="_blank">**surveyPrev**</a> (*Richard*, *Qianyu*, *Yunhan*, *Andrea*, *Jon*) is on CRAN and allows SAE for binary indicators.
-- Experience from UN and WHO workshops in Ecuador, South Africa, Malawi, and Rwanda is that researchers need a more user-friendly interface – to this end, a <a href="https://rsc.stat.washington.edu/surveyPrevRShiny" target="_blank">**R Shiny app**</a> has been developed by *Yunhan* and was premiered in a WHO workshop in Rwanda June 2024.
-- U5MR and fertility are hard because the data model is complex – can be done in <a href="https://github.com/richardli/SUMMER" target="_blank">**SUMMER**</a>.
-- With *Ben Mayala*, *Yunhan*, *Richard*, *Jon*, and others, created a <a href="https://github.com/wu-thomas/SUMMER-DHS" target="_blank"> **pipeline**</a> for U5MR using DHS data and <a href="https://github.com/richardli/SUMMER" target="_blank">**SUMMER**</a>.
-- R <a href="https://cran.r-project.org/web/packages/survey/index.html" target="_blank">**survey**</a>  package </a> now has a generic <a href="https://cran.r-project.org/web/packages/survey/vignettes/survey-sae.html" target="_blank">**SAE module**</a> thanks to <a href="https://peteragao.github.io/" target="_blank">*Peter Gao*</a> and others.

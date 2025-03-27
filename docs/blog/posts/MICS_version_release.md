@@ -3,6 +3,8 @@ date:
   created: 2025-03-15
 authors: [yunhanwu]
 readtime: 1
+categories:
+  - Software Updates
 ---
 
 # R Shiny App for MICS Released!

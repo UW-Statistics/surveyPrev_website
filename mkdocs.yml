@@ -34,7 +34,7 @@ theme:
 nav:
   - Home: index.md
   - Getting Started:
-    - About the Project: overview/project_overview.md
+    - About the Platform: overview/project_overview.md
     - Installation:
       - R Shiny App (DHS-General): overview/app_general.md
       - R Shiny App (DHS-WHO): overview/app_WHO.md
@@ -54,9 +54,6 @@ nav:
       - Area-level Model: method/method_area.md
       - Unit-level Model: method/method_unit.md
       - Analysis Plan: method/method_plan.md
-    - Our innovations:
-      - Publications: method/publications.md
-      - Software development: method/software_development.md
   
   - Visualizations:
     - Overview: gallery/visual_overview.md
@@ -68,17 +65,27 @@ nav:
     - Ridge Plot: gallery/ridge_plot.md
     - Scatter Plot: gallery/scatter_plot.md
 
+  - Impact: 
+    - Workshops:
+      - WHO Technical Series: impact/WHO_workshop_series.md
+      - Other Workshops and Courses: impact/other_workshops.md
+    - Publications: impact/publications.md
+    - Software Development: impact/software_development.md
+
   - About Us:
     - STAB Group: team/STAB_group.md
     - Collaborators: team/collaborators.md
     - Contact Us: team/contact_us.md
 
-  - Blog:
+  - News & Updates:
     - blog/index.md
 
 plugins:
   - search
-  - blog
+  - blog:
+      categories_allowed:
+        - Software Updates
+        - Recources
   - bibtex:
       bib_file: "docs/assets/refs.bib"
 

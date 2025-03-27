@@ -4,6 +4,8 @@ date:
   updated: 2024-09-25
 authors: [yunhanwu]
 readtime: 2
+categories:
+  - Recources
 ---
 
 # Announcing Our YouTube Channel!

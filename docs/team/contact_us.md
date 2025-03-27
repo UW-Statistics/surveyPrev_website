@@ -6,14 +6,14 @@ We value your feedback and inquiries! Here’s how you can reach us:
 
 You can connect with us through our GitHub repositories. Please use the following sections to submit issue tickets:
 
-- **For R Shiny app related issues:** Please submit your concerns to our <a href="https://github.com/wu-thomas/SurveyPrevRShiny/issues" target="_blank"><strong>R Shiny App GitHub repository</strong></a> or engage in <a href="https://github.com/wu-thomas/SurveyPrevRShiny/discussions" target="_blank"><strong>discussions</strong></a>.
-- **For R package related issues:** Please submit your concerns via our <a href="https://github.com/richardli/surveyPrev/issues" target="_blank"><strong>surveyPrev package GitHub repository</strong></a>.
+- For **`sae4health`** R Shiny app related issues: Please submit your concerns to our `sae4health` R Shiny app <a href="https://github.com/wu-thomas/sae4health/issues" target="_blank">**GitHub repository**</a> or engage in <a href="https://github.com/wu-thomas/sae4health/discussions" target="_blank">**discussions**</a>.
+- For **R package** related issues: Please submit your concerns via our **`surveyPrev`** R package <a href="https://github.com/richardli/surveyPrev/issues" target="_blank">**GitHub repository**</a>.
 
 **Note:** A GitHub account is required to submit issues or participate in discussions. If you don't have an account, you can easily create one <a href="https://github.com/join" target="_blank">here</a>.
 
-## Blog
+## News & Update
 
-Stay informed with our latest updates! Check out our [Blog](../blog/index.md) for recent articles and announcements.
+Stay informed with our latest updates! Check out our [**News & Update**](../blog/index.md) for recent articles and announcements.
 
 ## Email
 

@@ -3,6 +3,8 @@ date:
   created: 2025-01-12
 authors: [yunhanwu]
 readtime: 1
+categories:
+  - Software Updates
 ---
 
 # R Shiny App v1.1.2 Released: Explore the Latest Features!
