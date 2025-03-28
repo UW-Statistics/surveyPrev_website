@@ -80,7 +80,7 @@ The workshop focused on:
 
 > “After two days of training with expertise from WHO Geneva, Senegal is strengthening its ability to leverage subnational health data in the area of **SRMNIA** (maternal, newborn, child, and adolescent health and nutrition). This process will help develop more targeted policies to reduce maternal mortality.” – [@OMS_SENEGAL](https://x.com/OMS_SENEGAL/status/1862450061617078704)
 
-<img src="../../impact/figs/sae4health_Senegal_group.jpg" alt="Participants using SAE4Health at the WHO workshop in Senegal" width="100%"/>
+<img src="../../impact/figs/sae4health_Senegal_group.JPG" alt="Participants using SAE4Health at the WHO workshop in Senegal" width="100%"/>
 
 *Group photo from the SAE4Health capacity-building workshop – November 2024, Somone, Senegal. Source: [@OMS_SENEGAL](https://x.com/OMS_SENEGAL/status/1862450061617078704)*
 
