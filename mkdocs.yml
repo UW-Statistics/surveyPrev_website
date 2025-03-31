@@ -53,7 +53,8 @@ nav:
       - Direct Estimates: method/method_direct.md
       - Area-level Model: method/method_area.md
       - Unit-level Model: method/method_unit.md
-      - Analysis Plan: method/method_plan.md
+    - Analysis Plan: method/method_plan.md
+    - Model Extensions: method/model_extensions.md
   
   - Visualizations:
     - Overview: gallery/visual_overview.md
