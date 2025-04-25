@@ -69,6 +69,7 @@ nav:
   - Impact: 
     - Workshops:
       - WHO Technical Series: impact/WHO_workshop_series.md
+      - Nigeria Workshops: impact/Nigeria_workshop_series.md
       - Other Workshops and Courses: impact/other_workshops.md
     - Publications: impact/publications.md
     - Software Development: impact/software_development.md
@@ -87,6 +88,7 @@ plugins:
       categories_allowed:
         - Software Updates
         - Recources
+        - Methodological Updates
   - bibtex:
       bib_file: "docs/assets/refs.bib"
 

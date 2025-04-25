@@ -14,7 +14,7 @@ There are two primary venues to utilize this R Shiny application:
 ## Web-based R Shiny app
 
 The R Shiny app is readily accessible via
-<https://rsc.stat.washington.edu/surveyPrevRShiny/>. The only
+<https://rsc.stat.washington.edu/sae4health/>. The only
 requirement is a stable internet connection. This web-based deployment
 supports full functionality and serves as the primary distribution
 channel.
