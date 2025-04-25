@@ -1060,6 +1060,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#covariate-incorporation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Covariate Incorporation
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1399,6 +1408,8 @@
       
         
       
+        
+      
     
     
       
@@ -1444,6 +1455,27 @@
   
   <span class="md-ellipsis">
     WHO Technical Series
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../impact/Nigeria_workshop_series/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Nigeria Workshops
   </span>
   
 
@@ -1822,6 +1854,8 @@
       
         
       
+        
+      
     
     
       
@@ -1854,6 +1888,29 @@
             Categories
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/category/methodological-updates/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Methodological Updates
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -1949,6 +2006,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#covariate-incorporation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Covariate Incorporation
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1966,9 +2032,20 @@
 
   <h1>Model Extensions</h1>
 
+<p>After completing the data sparsity check, users can access the <strong>Advanced Options</strong> panel. By clicking to expand it, users can customize model settings such as enabling the nested model or incorporating covariates.</p>
 <h2 id="nested-admin-2-model"><span style="color:royalblue">Nested Admin-2 Model</span></h2>
-<p>The nested model adds a fixed effect at the <strong>Admin-1 (strata)</strong> level. This extension helps to reduce over-smoothing.</p>
+<p>The spatial models we use smooth the raw data both <strong>locally</strong> and <strong>nationally</strong>. <strong>Oversmoothing</strong> is a concern when data are sparse.</p>
+<p>Recall that surveys are powered to produce reliable estimates for some indicators at Admin-1 and, hence, we would like to <em>recover</em> the weighted estimates, rather than distort away from those.</p>
+<p>To prevent overshrinkage at the Admin-1 level, we have developed a <strong>nested</strong> model in which we have</p>
+<div class="arithmatex">\[
+p_c = \text{expit} \left( \alpha_{a[s_c]} + e_{i[s_c]} + S_{i[s_c]} \right),
+\]</div>
+<p>where <span class="arithmatex">\(a[s_c]\)</span> is the Admin-1 area within which cluster <span class="arithmatex">\(c\)</span> with location <span class="arithmatex">\(s_c\)</span> is contained and the <span class="arithmatex">\(\alpha_a\)</span> are a set of Admin-1 level fixed effects which are included to effectively recover the weighted estimates.</p>
+<p>The <span class="arithmatex">\(e_{i[s_c]}+S_{i[s_c]}\)</span> terms then smooth <strong>within</strong> each Admin-1 area. This model can be viewed as being consistent with the sampling scheme in which the Admin-1 areas are sampling strata. Currenlty this option only affects unit-level models at or beyond Admin-2 level.</p>
 <p><strong>Default:</strong> Disabled (non-nested)</p>
+<h2 id="covariate-incorporation"><span style="color:royalblue">Covariate Incorporation</span></h2>
+<p>Users can incorporate area-level external covariates into both area-level and unit-level models to improve estimation. To do so, first select the desired Admin level. A template <code>.csv</code> file can be downloaded, containing the list of regions at the selected admin level. Users should add new column(s) corresponding to the covariates and fill in the covariate values for each region. Once completed, the file should be uploaded back into the app. The covariates are automatically incorporated into the model fitting process after clicing the <code>apply</code> button. </p>
+<p><strong>Default:</strong> No covariates. </p>
 
 
 
