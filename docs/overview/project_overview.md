@@ -34,7 +34,10 @@ SAE4Health supports country-led efforts to strengthen subnational health data us
 
 ## Methodological Details
 
-The statistical approach behind SAE4Health is centered on advanced SAE methodology, as described in the [**methods**](../method/approach_overview.md) section. There you’ll find an overview of the modeling framework, estimation strategy, and how uncertainty is quantified across geographic levels.
+The statistical approach behind SAE4Health is centered on advanced SAE methodology, as described in the [**methods**](../method/approach_overview.md) section. There you’ll find an overview of the modeling framework, estimation strategy, and how uncertainty is quantified across geographic levels. To cite SAE4Health in publications, please use 
+> Wu, Y., Dong, Q., Xu, J., Li, Z. R., & Wakefield, J. (2025). *sae4health: An R Shiny Application for Small Area Estimation in Low- and Middle-Income Countries.* arXiv:2505.01467. [https://doi.org/10.48550/arXiv.2505.01467](https://doi.org/10.48550/arXiv.2505.01467).
+
+
 
 
 <!-- 

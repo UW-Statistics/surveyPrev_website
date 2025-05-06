@@ -1,5 +1,6 @@
 
-Here is the written documentation for our method. Additionally, explore our engaging [**video lecture**](../overview/youtube_method_lecture.md) presented by Professor <a href="https://faculty.washington.edu/jonno/" target="_blank">Jon Wakefield</a> from University of Washington. The slides are available [**here**](../overview/sae_slides.md).
+Here is the written documentation for our method. Additionally, explore our engaging [**video lecture**](../overview/youtube_method_lecture.md) presented by Professor <a href="https://faculty.washington.edu/jonno/" target="_blank">Jon Wakefield</a> from University of Washington. The slides are available [**here**](../overview/sae_slides.md). To cite SAE4Health in publications, please use 
+> Wu, Y., Dong, Q., Xu, J., Li, Z. R., & Wakefield, J. (2025). *sae4health: An R Shiny Application for Small Area Estimation in Low- and Middle-Income Countries.* arXiv:2505.01467. [https://doi.org/10.48550/arXiv.2505.01467](https://doi.org/10.48550/arXiv.2505.01467).
 
 ## Small Area Estimation (SAE)
 
