@@ -13,18 +13,15 @@ There are two primary venues to utilize this R Shiny application:
 
 ## Web-based R Shiny app
 
-The R Shiny app is readily accessible via
-<https://rsc.stat.washington.edu/sae4health/>. The only
+The R Shiny app is readily accessible via <a href="https://rsc.stat.washington.edu/sae4health/" target="_blank">https://rsc.stat.washington.edu/sae4health/</a>. The only
 requirement is a stable internet connection. This web-based deployment
 supports full functionality and serves as the primary distribution
 channel.
 
 One advantage of the online version is that it includes preloaded
-shapefiles, reducing the need for manual uploads. While all versions
-require users to upload their own DHS survey datasets for analysis,
-currently the online version internally hosts the 2018 Nigeria DHS, 2022
-Kenya DHS, and 2023 Senegal DHS (**without the need for data upload!**),
-with more datasets planned for future inclusion.
+shapefiles, and almost **all DHS survey data** after 2000 (without the need for data upload)!
+While the local version require users to upload their own DHS survey datasets for analysis,
+
 
 ## Installation of the R Shiny app as a R package
 

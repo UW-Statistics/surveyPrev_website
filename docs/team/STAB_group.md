@@ -37,9 +37,9 @@ Meet our team members who are involved in the SAE4Health Project.
         Lead developer for the SurveyPrev R package.
     </p>
 
-- <a href="https://www.linkedin.com/in/yunhan-wu-956902297" target="_blank">Yunhan Wu</a> – PhD Candidate in Biostatistics at University of Washington
+- <a href="https://wu-thomas.github.io/" target="_blank">Yunhan Wu</a> – PhD in Biostatistics at University of Washington
     <figure markdown="span">
-    ![Image title](../team/photos/yunhan_kindof_smile.jpg){width='160'}
+    ![Image title](../team/photos/yunhan_kindof_smile.jpg){width='150'}
     </figure>
     <p style="font-style: italic; padding: 10px; margin: 10px 0; background-color: #f9f9f9; color: #333; border-radius: 5px; text-align: left; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
         Lead developer for the R Shiny app and the SAE4Health website.
