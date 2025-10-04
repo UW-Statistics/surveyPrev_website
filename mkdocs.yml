@@ -38,7 +38,7 @@ nav:
     - Tools:
       - R Shiny App (DHS-General): overview/app_general.md
       - R Shiny App (MICS): overview/app_MICS.md
-      - Pre-modeled estimates: overview/app_sae4lmic.md
+      - Pre-modeled (DHS): overview/app_sae4lmic.md
       - R Shiny App (DHS-WHO): overview/app_WHO.md
     - Instruction Videos: 
       - Data Preparation: overview/youtube_data_request.md
