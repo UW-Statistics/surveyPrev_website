@@ -16,7 +16,6 @@ You can connect with us through our GitHub repositories. Please use the followin
 Stay informed with our latest updates! Check out our [**News & Update**](../blog/index.md) for recent articles and announcements.
 
 ## Email
-
-If you have any questions or require further assistance, please don't hesitate to email us at <span style="color:#007BFF;">yunhanwu@uw.edu</span>.
+If you have any questions or require further assistance, please don't hesitate to email us at <span style="color:#007BFF;">jonno@uw.edu</span>.
 
 Thank you for your interest and support!
