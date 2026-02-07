@@ -9,7 +9,7 @@ site_description: Powered by SurveyPrev and the R Shiny App
 
 theme:
   name: material
-  custom_dir: overrides\landing_page
+  custom_dir: overrides/landing_page
   #icon: # https://www.materialpalette.com/icons
     #logo: material/map
   logo: 
