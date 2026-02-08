@@ -29,6 +29,14 @@ Meet our team members who are involved in the SAE4Health Project.
 
 <div class="grid cards" markdown>
 
+- <a href="https://victoriaknutson.github.io/" target="_blank">Victoria Knutson</a> – Postdoctoral Scholar at University of Washington
+    <figure markdown="span">
+    ![Image title](../team/photos/knutson_smile.jpg){width='270'}
+    </figure>
+    <p style="font-style: italic; padding: 10px; margin: 10px 0; background-color: #f9f9f9; color: #333; border-radius: 5px; text-align: left; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+        Lead and coordinates software development and statistical methods. 
+    </p>
+
 - <a href="https://qianyu313.github.io/qd33/" target="_blank">Qianyu Dong</a> – PhD Candidate in Statistics at University of California Santa Cruz
     <figure markdown="span">
     ![Image title](../team/photos/qianyu_smile.jpg){width='150'}
