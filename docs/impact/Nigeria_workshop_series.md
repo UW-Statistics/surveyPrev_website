@@ -22,7 +22,7 @@ This collaboration is ongoing and was followed up with two remote workshops, hel
   </div>
 
   <div style="flex: 0 0 64%;">
-    <img src="../../impact/figs/NGA_image2.jpg" alt="Participants using SAE4Health at the workshop in Nigeria (Photo 2)" style="width: 100%; height: auto;"/>
+    <img src="../../impact/figs/NGA_image2.JPG" alt="Participants using SAE4Health at the workshop in Nigeria (Photo 2)" style="width: 100%; height: auto;"/>
   </div>
 
 </div>
