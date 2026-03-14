@@ -68,10 +68,7 @@ nav:
     - Scatter Plot: gallery/scatter_plot.md
 
   - Impact: 
-    - Workshops:
-      - WHO Technical Series: impact/WHO_workshop_series.md
-      - Nigeria Workshops: impact/Nigeria_workshop_series.md
-      - Other Workshops and Courses: impact/other_workshops.md
+    - Workshops: impact/workshops.md
     - Publications: impact/publications.md
     - Software Development: impact/software_development.md
 

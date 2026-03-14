@@ -3,6 +3,20 @@ For the past decade, our research team has engaged in extensive methodological w
 
 ### Selected Publications
 
+- Dong Q, Wu Y, Li, ZR, Wakefield, J (2026). Toward a principled workflow for prevalence mapping using household survey data. To appear, *Journal of Survey Statistics and Methodology*.
+
+- Paulson K, Fuglstad G-A, Li RZ and Wakefield J (2026). Temporal models for estimation and short-term forecasting of neonatal mortality rates in sub-Saharan Africa. To appear, *Annals of Applied Statistics*.
+
+- McGovern A, Wilson K and Wakefield J (2026). Direct-assisted Bayesian unit-level modeling for small area estimation of rare event prevalence. To appear, *Journal of Survey Statistics and Methodology*.
+
+- Okonek T, Wilson K and Wakefield J (2026). A pseudolikelihood approach to under-five mortality estimation. To appear, *Demographic Research*.
+
+- Wu Y, Dharamshi A and Wakefield J (2026). Small area estimation of education levels in low- and middle-income countries. To appear, *Annals of Applied Statistics*.
+
+- Wakefield J, Gao P, Fuglstad G-A and Li ZR (2026). The two cultures for prevalence mapping: small area estimation and geostatistics (with discussion). To appear, *Statistical Science*.
+
+- Aleshin-Guendel S and Wakefield J (2025). Adaptive Gaussian Markov random fields for child mortality estimation. *Biostatistics*, 26, kxae030.
+
 - Wu, Y., & Wakefield, J. (2024). Modeling urban/rural fractions in low- and middle-income countries. *Journal of the Royal Statistical Society, Series A, 3*, 811-830. 
 
 - Gao, P.A., & Wakefield, J. (2024). Smoothed model-assisted small area estimation of proportions. *The Canadian Journal of Statistics, 52*, 337-358.

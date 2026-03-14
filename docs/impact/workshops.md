@@ -6,6 +6,7 @@ output:
 
 <!-- ## <span style="color:#004c97;">SAE4Health Featured in WHO Workshops Across Africa</span> -->
 #  SAE4Health in WHO Workshops Across Africa
+
 The **SAE4Health** platform was a cornerstone of a series of **WHO-led workshops** across Africa, focused on strengthening country capacity to analyze subnational health data. With maternal health as a central theme, participants gained hands-on experience using the <code>sae4health</code> R Shiny app to generate localized estimates and inform data-driven decision-making.
 
 ## <span style="color:#004c97;">Kigali: The Launch of SAE4Health</span>
@@ -86,4 +87,56 @@ The workshop focused on:
 
 
 
+## <span style="color:#004c97;">Capacity Building with SAE4Health: Nigeria Workshops</span>
+
+In collaboration with <a href="https://faculty.washington.edu/jonno/" target="_blank"> Professor Jon Wakefield</a> and his team, based at the University of Washington, **the Government of Nigeria**, with support from **UNICEF** and **GAVI**, has spearheaded the development of DHS and MICS small area estimation (SAE) methodology for Nigeria.
+
+The Nigerian government has recently passed a law to directly send funding to Local Government Areas (LGAs) which requires more data-informed planning and monitoring of programs at LGA level.
+
+<a href="https://faculty.washington.edu/jonno/" target="_blank">Jon Wakefield</a> visited <span style="color:#1a7f42;"><strong>Abuja, Nigeria</strong></span>, from November 25-30, 2024, and attended meetings with the **National Bureau of Statistics** and key stakeholders from line ministries, state level bureau of statistics and other partners.
+
+This collaboration is ongoing and was followed up with two remote workshops, held over zoom, in January, 2025. <a href="https://faculty.washington.edu/jonno/" target="_blank"> Jon Wakefield</a> returned to Nigeria and was in <span style="color:#1a7f42;"><strong>Kano State</strong></span> from March 18-21, where government representatives from 9 States convened to continue the collaboration and showcase the new app that carried out SAE using MICS 2016 and MICS 2021 survey data.
+
+<div style="display: flex; flex-wrap: nowrap; justify-content: center; gap: 10px;margin-bottom:-10px;">
+
+  <div style="flex: 0 0 36%;">
+    <img src="../../impact/figs/NGA_image1.jpg" alt="Participants using SAE4Health at the workshop in Nigeria (Photo 1)" style="width: 100%; height: auto;"/>
+  </div>
+
+  <div style="flex: 0 0 64%;">
+    <img src="../../impact/figs/NGA_image2.JPG" alt="Participants using SAE4Health at the workshop in Nigeria (Photo 2)" style="width: 100%; height: auto;"/>
+  </div>
+
+</div>
+*Photos taken during Nigeria workshops.*
+
+
+## <span style="color:#004c97;">Additional Workshops and Short Courses on Small Area Estimation</span>
+
+- **Small Area Estimation**  
+  *UNICEF Workshop on Maternal and Child Health, Côte d'Ivoire, November 2024* — Taught by Jon Wakefield and Yunhan Wu. Remote.
+
+- **Small Area Estimation**  
+  *Summer Institutes in Statistics for Clinical and Epidemiological Research (SIS), University of Washington* July 2020, July 2021, July 2022 - Taught by Jon Wakefield. Remote.
+
+- **Small Area Estimation for Child Mortality**  
+  *United Nations Workshop, Quito, Ecuador, May 2019* — Taught by Jon Wakefield and Katie Wilson. In person.
+
+- **Small Area Estimation for Child Mortality**  
+  *United Nations Workshop, Johannesburg, South Africa, May 2019* — Taught by Jon Wakefield and Katie Wilson. In person.
+
+- **Small Area Estimation for Child Mortality**  
+  *United Nations Workshop, Blantyre, Malawi, November 2019* — Taught by Jon Wakefield. In person.
+    
+- **Child Mortality Estimation**  
+  *Joint UNICEF–WHO Regional Workshop, Jordan, April 2019* — Taught by Richard Li. In person.
+
+- **Bayesian Small Area Estimation using Complex Data**  
+  *CSSS 20th Anniversary Conference, University of Washington, May 2018* Taught by Jon Wakefield. In person.
+
+- **2-Day Short Course: Bayesian Small Area Estimation using Complex Survey Data**  
+  *Asian Population Association Conference, Shanghai, China* — Taught by Richard Li and Samuel Clark. In person.
+
+- **2-Day Short Course: Bayesian Small Area Estimation using Complex Survey Data**  
+  *Population Association of America Annual Meeting, Denver, CO, USA* — Taught by Jon Wakefield, Richard Li, and Samuel Clark. In person.
 
