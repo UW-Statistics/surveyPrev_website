@@ -52,6 +52,31 @@ Meet our team members who are involved in the SAE4Health Project.
     <p style="font-style: italic; padding: 10px; margin: 10px 0; background-color: #f9f9f9; color: #333; border-radius: 5px; text-align: left; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
         Lead developer for the R Shiny app and the SAE4Health website.
     </p>
+    
+
+- <a href="https://www.linkedin.com/in/jieyi-xu-500204261" target="_blank">Jieyi Xu</a> – Graduate Student in Biostatistics at University of Washington
+    <figure markdown="span">
+    ![Image title](../team/photos/jieyi_no_smile.jpg){width='200'}
+    </figure>
+    <p style="font-style: italic; padding: 10px; margin: 10px 0; background-color: #f9f9f9; color: #333; border-radius: 5px; text-align: left; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+        Developer for the MICS version of the R Shiny app.
+    </p>
+    
+- <a target="_blank">Paige Tomer</a> – Graduate Student in Biostatistics at University of Washington
+    <figure markdown="span">
+    ![Image title](../team/photos/paige_smile.jpeg){width='150'}
+    </figure>
+    <p style="font-style: italic; padding: 10px; margin: 10px 0; background-color: #f9f9f9; color: #333; border-radius: 5px; text-align: left; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+        Analyzing childhood mortality indicators and their spatial variation.
+    </p>
+    
+- <a target="_blank">Adi Cohen</a> – Graduate Student in Statistics at University of Washington
+    <figure markdown="span">
+    ![Image title](../team/photos/adi_smile.jpg){width='150'}
+    </figure>
+    <p style="font-style: italic; padding: 10px; margin: 10px 0; background-color: #f9f9f9; color: #333; border-radius: 5px; text-align: left; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+        Exploring covariate integration in small-area modeling frameworks.
+    </p>
 
 - <a href="https://ameerd.github.io/" target="_blank">Ameer Dharamshi</a> – PhD Student in Biostatistics at University of Washington
     <figure markdown="span">
@@ -83,14 +108,6 @@ Meet our team members who are involved in the SAE4Health Project.
     </figure>
     <p style="font-style: italic; padding: 10px; margin: 10px 0; background-color: #f9f9f9; color: #333; border-radius: 5px; text-align: left; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
         Streamlined analysis pipeline for MICS surveys.
-    </p>
-
-- <a href="https://www.linkedin.com/in/jieyi-xu-500204261" target="_blank">Jieyi Xu</a> – Graduate Student in Biostatistics at University of Washington
-    <figure markdown="span">
-    ![Image title](../team/photos/jieyi_no_smile.jpg){width='200'}
-    </figure>
-    <p style="font-style: italic; padding: 10px; margin: 10px 0; background-color: #f9f9f9; color: #333; border-radius: 5px; text-align: left; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-        Developer for the MICS version of the R Shiny app.
     </p>
 
 
