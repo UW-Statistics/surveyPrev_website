@@ -40,6 +40,7 @@ nav:
       - R Shiny App (MICS): overview/app_MICS.md
       - Pre-modeled (DHS): overview/app_sae4lmic.md
       - R Shiny App (DHS-WHO): overview/app_WHO.md
+      - Software Development: overview/software_development.md
     - Instruction Videos: 
       - Data Preparation: overview/youtube_data_request.md
       - R Shiny App Demo: overview/youtube_app_demo.md
@@ -70,7 +71,6 @@ nav:
   - Impact: 
     - Workshops: impact/workshops.md
     - Publications: impact/publications.md
-    - Software Development: impact/software_development.md
 
   - About Us:
     - STAB Group: team/STAB_group.md

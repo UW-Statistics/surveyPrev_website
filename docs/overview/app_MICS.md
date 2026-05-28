@@ -6,7 +6,7 @@ The MICS version of the app is exclusively available through the web-based versi
 
 ### Web-based R Shiny App
 
-Access the MICS version of the R Shiny app directly via the following URL: <a href="https://rsc.stat.washington.edu/surveyPrevRShinyMICS/" target="_blank">https://rsc.stat.washington.edu/surveyPrevRShinyMICS/</a>.
+Access the MICS version of the R Shiny app directly via the following URL: <a href="https://rsc.stat.washington.edu/app_direct/sae4mics/" target="_blank">https://rsc.stat.washington.edu/app_direct/sae4mics/</a>.
 
 
 
