@@ -109,5 +109,9 @@ extra:
   analytics:
     provider: google
     property: G-41Y6M11ECM
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/sae4health
+      name: SAE4Health on LinkedIn
 
 copyright: Copyright &copy; 2024 - 2025 Yunhan Wu
